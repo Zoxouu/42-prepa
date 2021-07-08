@@ -1,5 +1,6 @@
 #include <unistd.h>
-void ft_print_numbers(void)
+
+void    ft_print_numbers(void)
 {
     int i;
 
@@ -12,7 +13,7 @@ void ft_print_numbers(void)
        
 }
 
-int main(void)
+int     main(void)
 {
     ft_print_numbers();
     write(1, "\n", 1);
